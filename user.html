@@ -2,106 +2,126 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Signature</title>
 </head>
-<body style="padding: 0;">
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; font-size:12px; color:#303030; line-height:18px;">
+
   <!-- Signature Block -->
-  <div style="padding: 0px;">
-    <div style="display:inline-block; max-width:600px; width: 100%; font-family: Arial, sans-serif; font-size:14px; color:#303030; line-height:20px; text-align:left;">
+  <table cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%;">
+    <tr>
+      <!-- Left: Profile Image -->
+      <td valign="top" style="padding-right:15px;">
+        <img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/UserGroup.png" alt="John Carter" width="100" style="border-radius:10px; display:block;">
+      </td>
 
-      <!-- Main Flex -->
-      <div style="display:flex; align-items:flex-start; flex-wrap:wrap; ">
-
-        <!-- Left: Profile Image -->
-        <div style="margin-right:15px; flex:0 0 auto;">
-          <img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/UserGroup.png" alt="John Carter" width="100" style="border-radius:10px; display:block;">
-        </div>
-
-        <!-- Right: Info & Logo -->
-        <div style="flex:1; min-width:200px; display:flex; flex-direction:column;">
-
-          <!-- Top Row (now full width) -->
-          <div style="width:100%; display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap;">
+      <!-- Right: Info & Logo -->
+      <td valign="top" style="width:100%;">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
             <!-- Name & Role -->
-            <div style="margin-bottom:6px; flex:1;">
-              <div style="font-weight:bold; font-size:12px; color:#4a90e2;">John Carter</div>
-              <div style="color:#4a90e2; font-size:12px;">VP of Design</div>
-            </div>
-
+            <td valign="top" style="font-size:12px; color:#4a90e2; font-weight:bold;">
+              John Carter<br>
+              <span style="font-weight:normal;">VP of Design</span>
+            </td>
             <!-- Logo -->
-            <div style="flex:0 0 auto; margin-top:4px;">
+            <td valign="top" align="right">
               <img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/BlueLogo.png" alt="Tantor Legal" width="120" style="display:block;">
-            </div>
-          </div>
+            </td>
+          </tr>
+        </table>
 
-          <!-- Divider line -->
-          <div style="border-top:1px solid #e0e0e0; margin:8px 0;"></div>
+        <!-- Divider -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr><td style="border-top:1px solid #e0e0e0; height:8px;"></td></tr>
+        </table>
 
-          <!-- Bottom Row -->
-          <div style="width:100%; display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; ">
-            
+        <!-- Contact Info -->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
             <!-- Left: Email & Phone -->
-            <div style="margin-bottom:6px; flex:1; min-width:220px;">
+            <td valign="top" style="font-size:12px; color:#4a90e2;">
               <div>
-                <img src="https://img.icons8.com/ios-filled/15/4a90e2/new-post.png" style="margin-right:0px; vertical-align:middle;">
-                <a href="mailto:john@tantorlegal.com" style="color:#4a90e2; font-size:12px; text-decoration:none;">john@tantorlegal.com</a>
+                <img src="https://img.icons8.com/ios-filled/15/4a90e2/new-post.png" style="vertical-align:middle;">
+                <a href="mailto:john@tantorlegal.com" style="color:#4a90e2; text-decoration:none;">john@tantorlegal.com</a>
               </div>
               <div>
-                <img src="https://img.icons8.com/ios-filled/15/4a90e2/phone.png" style="margin-right:0px; vertical-align:middle;">
-                <a href="tel:3450871239" style="color:#4a90e2; text-decoration:none; font-size:12px;">(345) 087 - 1239</a>
+                <img src="https://img.icons8.com/ios-filled/15/4a90e2/phone.png" style="vertical-align:middle;">
+                <a href="tel:3450871239" style="color:#4a90e2; text-decoration:none;">(345) 087 - 1239</a>
               </div>
-            </div>
+            </td>
 
             <!-- Right: Website & Location -->
-            <div style="flex: 0; min-width:220px; font-size:12px; color: #4a90e2; justify-content: right;">
+            <td valign="top" align="right" style="font-size:12px; color:#4a90e2;">
               <div>
-                <img src="https://img.icons8.com/ios-filled/15/4a90e2/domain.png" style="margin-right:0px; vertical-align:middle;">
-                <a href="http://www.tantorlegal.com" style="color:#4a90e2; text-decoration:none; font-size:12px;">www.tantorlegal.com</a>
+                <img src="https://img.icons8.com/ios-filled/15/4a90e2/domain.png" style="vertical-align:middle;">
+                <a href="http://www.tantorlegal.com" style="color:#4a90e2; text-decoration:none;">www.tantorlegal.com</a>
               </div>
               <div>
-                <img src="https://img.icons8.com/ios-filled/15/4a90e2/marker.png" style="margin-right:0px; vertical-align:middle; ">
-               984 Penn Rd. NY 10002
+                <img src="https://img.icons8.com/ios-filled/15/4a90e2/marker.png" style="vertical-align:middle;">
+                984 Penn Rd. NY 10002
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-    </div>
-  </div>
-  <div>
-   
-  </div>
-  <!-- Help Section + Footer (unchanged) -->
-  <div style="width:100%;">
-    <div style="display:inline-block; max-width:600px; font-family:Poppins, sans-serif; text-align:left;">
-       <img style="max-width: 600px; width: 100%;" src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/Banner.png" alt="">
-        <p style="color: rgba(46, 97, 190, 0.60); font-size: 12px; font-weight: 600; margin: 8px 0 0;">
-          Besoin d’aide ?
-      </p>
-      <p style="color: rgba(0, 0, 0, 0.60); font-size: 12px; margin: 4px 0;">
-          Si vous avez des questions ou besoin d’aide, n’hésitez pas à contacter 
-          <span style="color: rgba(46, 97, 190, 0.60);">support@tantorlegal.com</span>
-      </p>
-      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0;">
-          <p style="color: rgba(46, 97, 190, 0.60); font-size: 12px; margin: 0;">
-              © 2025 - Tantor Legal
-          </p>
-          <div>
-              <a href="https://twitter.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/twitter.png" alt="Twitter" style="height:16px; margin:0 3px;"></a>
-              <a href="https://facebook.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/facebook.png" alt="Facebook" style="height:16px; margin:0 3px;"></a>
-              <a href="https://youtube.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/youtube.png" alt="YouTube" style="height:16px; margin:0 3px;"></a>
-              <a href="https://linkedin.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/linkdn.png" alt="LinkedIn" style="height:16px; margin:0 3px;"></a>
-          </div>
-      </div>
-      <p style="text-align: center; color: rgba(0, 0, 0, 0.60); font-size: 11px; line-height: 18px; margin: 4px 0;">
-          Ce message et ses pièces jointes sont confidentiels. Si vous l’avez reçu par erreur, supprimez-le et avertissez l’expéditeur. Merci de ne pas imprimer ce courriel sauf nécessité.
-      </p>
-      <p style="text-align: center; color: rgba(0, 0, 0, 0.60); font-size: 11px; line-height: 18px; margin: 4px 0;">
-          This email and its attachments are confidential. If received in error, delete it and notify the sender. Please avoid printing unless necessary.
-      </p>
-    </div>
-  </div>
+  <!-- Banner -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px;">
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/Banner.png" alt="Banner" style="width:100%; display:block;">
+      </td>
+    </tr>
+  </table>
+
+  <!-- Help Section -->
+  <table cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%;">
+    <tr>
+      <td style="color:rgba(46,97,190,0.6); font-size:12px; font-weight:600; padding-top:8px;">
+        Besoin d’aide ?
+      </td>
+    </tr>
+    <tr>
+      <td style="color:rgba(0,0,0,0.6); font-size:12px; padding-top:4px;">
+        Si vous avez des questions ou besoin d’aide, contactez 
+        <span style="color:rgba(46,97,190,0.6);">support@tantorlegal.com</span>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Footer -->
+  <table cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; padding:10px 0;">
+    <tr>
+      <td style="color:rgba(46,97,190,0.6); font-size:12px;">© 2025 - Tantor Legal</td>
+      <td align="right">
+        <a href="https://twitter.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/twitter.png" alt="Twitter" style="height:16px;"></a>
+        <a href="https://facebook.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/facebook.png" alt="Facebook" style="height:16px;"></a>
+        <a href="https://youtube.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/youtube.png" alt="YouTube" style="height:16px;"></a>
+        <a href="https://youtube.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/youtube.png" alt="YouTube" style="height:16px;"></a>
+        <a href="https://youtube.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/youtube.png" alt="YouTube" style="height:16px;"></a>
+        <a href="https://youtube.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/youtube.png" alt="YouTube" style="height:16px;"></a>
+
+        <a href="https://linkedin.com/"><img src="https://raw.githubusercontent.com/nestormuk/EmailSignatureKarim/main/linkdn.png" alt="LinkedIn" style="height:16px;"></a>
+        
+    </td>
+    </tr>
+  </table>
+
+  <!-- Disclaimer -->
+  <table cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%;">
+    <tr>
+      <td style="text-align:center; color:rgba(0,0,0,0.6); font-size:11px; line-height:18px; padding-top:4px;">
+        Ce message et ses pièces jointes sont confidentiels. Si vous l’avez reçu par erreur, supprimez-le et avertissez l’expéditeur. Merci de ne pas imprimer ce courriel sauf nécessité.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; color:rgba(0,0,0,0.6); font-size:11px; line-height:18px; padding-top:4px;">
+        This email and its attachments are confidential. If received in error, delete it and notify the sender. Please avoid printing unless necessary.
+      </td>
+    </tr>
+  </table>
+
 </body>
 </html>
